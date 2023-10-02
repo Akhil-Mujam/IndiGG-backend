@@ -33,7 +33,14 @@ http://127.0.0.1:8000/search/{query}
 # If a User Borrow Book 
 http://127.0.0.1:8000/borrow/{user_token}/{book_isbn}
 
-if the User Boorows up to 3 books then he is not allowed to borrow
+if the User Borrows up to 3 books then he is not allowed to borrow
+and the current date is taken and made an end_date by extending 20 Days 
+
+# Borrow Returns
+
+http://127.0.0.1:8000/return/{user_token}/{book_isbn}
+
+As the book is returned from the Borrowed list the Book is deleted of that user
 
 
 
