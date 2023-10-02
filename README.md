@@ -28,6 +28,7 @@ http://127.0.0.1:8000/getallBooks
 
 # Search Functionality
 http://127.0.0.1:8000/search/{query}
+Here the Query can be a title of the book, ISBN, or author name
 
 
 # If a User Borrow Book 
@@ -40,7 +41,7 @@ and the current date is taken and made an end_date by extending 20 Days
 
 http://127.0.0.1:8000/return/{user_token}/{book_isbn}
 
-As the book is returned from the Borrowed list the Book is deleted of that user
+As the book is returned from the Borrowed list the Book is deleted from that user
 
 
 
