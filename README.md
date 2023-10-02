@@ -1,7 +1,7 @@
 # IndiGG-backend Assignment
 
 Hi! this is AkhilMujam 
-
+# Resume is also shared in the above data
 API Endpoints for the Management System 
 
 # Registration
