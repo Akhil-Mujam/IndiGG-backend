@@ -1,0 +1,36 @@
+******************This is for user Details*******************
+
+class User(BaseModel):
+    username: str
+    email: str
+    password: str
+    conform_password: str
+    genre:str
+    # createdAt:str
+    borrowedBooks:list           
+    booksHistory:list  
+*****************************************************************
+
+
+
+
+*********************USER LOGIN***********************************
+
+class UserLogin(BaseModel):
+    email : str
+    password : str
+*******************************************************************
+
+
+
+
+**********************FOR ADDING A BOOK*******************************
+
+class add_new_book(BaseModel):
+    isbn   : str
+    title  : str
+    author : str
+    published_year : int
+    quantity : int
+    genre:str
+    # createdAt:str
